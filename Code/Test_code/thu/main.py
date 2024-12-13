@@ -2,7 +2,7 @@ import torch
 import torch.optim as optim
 from transformers import BertTokenizer
 from model import CNN_Text, BERT_Text, RoBERTa_Text, LSTM_Text
-from dataset import TextDataset, TextDatasetCNN,  load_data_from_csv
+from dataset import TextDatasetBERT, TextDatasetCNN,  load_data_from_csv
 from utils import train_with_kfold
 
 # Khởi tạo thiết bị
@@ -15,7 +15,7 @@ train_texts, train_labels = load_data_from_csv('/kaggle/working/FakeNews/Dataset
 tokenizer = BertTokenizer.from_pretrained('bert-base-uncased')
 
 # Dataset và DataLoader
-dataset = TextDataset(train_texts, train_labels, tokenizer, max_len=100)
+dataset = TextDatasetCNN(train_texts, train_labels, tokenizer, max_len=100)
 
 # Khởi tạo mô hình
 vocab_size = 5000  # Điều chỉnh theo từ điển của bạn
