@@ -4,6 +4,7 @@ from sklearn.metrics import precision_score, recall_score, f1_score, confusion_m
 import seaborn as sns
 import matplotlib.pyplot as plt
 import logging
+from torch.utils.data import DataLoader  # Thêm dòng này
 
 # Thiết lập logging
 logging.basicConfig(filename='training_log.log', level=logging.INFO, 
