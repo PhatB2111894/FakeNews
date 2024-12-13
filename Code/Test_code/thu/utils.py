@@ -96,10 +96,10 @@ def train_with_kfold(model, dataset, tokenizer, optimizer, criterion, num_epochs
             running_loss = 0.0
             correct = 0
             total = 0
-            for inputs, attention_mask, labels in train_loader:
-                inputs, attention_mask, labels = inputs.to(device), attention_mask.to(device), labels.to(device)
+            for inputs, labels in train_loader:
+                inputs, labels = inputs.to(device), labels.to(device)
                 optimizer.zero_grad()
-                outputs = model(inputs, attention_mask)
+                outputs = model(inputs)
                 loss = criterion(outputs, labels)
                 loss.backward()
                 optimizer.step()
