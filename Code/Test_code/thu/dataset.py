@@ -1,7 +1,8 @@
 from torch.utils.data import Dataset
 from transformers import BertTokenizer, RobertaTokenizer
+import pandas as pd
 
-# Dataset cho mô hình CNN và LSTM
+# Dataset cho mô hình CNN
 class TextDatasetCNN(Dataset):
     def __init__(self, texts, labels, tokenizer, max_len):
         self.texts = texts
@@ -34,13 +35,19 @@ class TextDatasetBERT(Dataset):
         label = self.labels[idx]
         encoding = self.tokenizer(text, truncation=True, padding='max_length', max_length=self.max_len, return_tensors='pt')
         return encoding['input_ids'].squeeze(0), encoding['attention_mask'].squeeze(0), label
-import pandas as pd
 
 def load_data_from_csv(class_0_path, class_1_path):
     # Đọc dữ liệu từ các tập CSV
     class_0_data = pd.read_csv(class_0_path)
     class_1_data = pd.read_csv(class_1_path)
 
+    # Kiểm tra các cột và thay thế NaN nếu cần
+    if 'title' not in class_0_data.columns or 'text' not in class_0_data.columns:
+        raise ValueError("CSV file must contain 'title' and 'text' columns.")
+    
+    if 'title' not in class_1_data.columns or 'text' not in class_1_data.columns:
+        raise ValueError("CSV file must contain 'title' and 'text' columns.")
+    
     # Thêm nhãn vào dữ liệu
     class_0_data['label'] = 0  # Gán nhãn 0 cho lớp 0
     class_1_data['label'] = 1  # Gán nhãn 1 cho lớp 1
