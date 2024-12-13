@@ -5,10 +5,14 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 import logging
 from torch.utils.data import DataLoader  # Thêm dòng này
-
+import torch.nn as nn
 # Thiết lập logging
 logging.basicConfig(filename='training_log.log', level=logging.INFO, 
                     format='%(asctime)s - %(levelname)s - %(message)s')
+
+def reset_weights(m):
+    if isinstance(m, (nn.Conv2d, nn.Linear)):  # Kiểm tra loại lớp
+        m.reset_parameters()  # Khôi phục lại trọng số của lớp
 
 # Định nghĩa EarlyStopping
 class EarlyStopping:
@@ -35,10 +39,13 @@ def evaluate(model, dataloader):
     model.eval()
     all_preds = []
     all_labels = []
+    running_loss = 0.0
     with torch.no_grad():
         for inputs, attention_mask, labels in dataloader:
             inputs, attention_mask, labels = inputs.to(device), attention_mask.to(device), labels.to(device)
             outputs = model(inputs, attention_mask)
+            loss = criterion(outputs, labels)
+            running_loss += loss.item()
             _, preds = torch.max(outputs, 1)
             all_preds.extend(preds.cpu().numpy())
             all_labels.extend(labels.cpu().numpy())
@@ -56,6 +63,12 @@ def evaluate(model, dataloader):
     plt.ylabel('True')
     plt.title('Confusion Matrix')
     plt.show()
+
+    # Trả về loss và accuracy
+    val_loss = running_loss / len(dataloader)
+    val_accuracy = accuracy
+    return val_loss, val_accuracy
+
 
 # Hàm huấn luyện với K-Fold Cross Validation
 def train_with_kfold(model, dataset, tokenizer, optimizer, criterion, num_epochs=5, k_folds=5, max_len=100):
