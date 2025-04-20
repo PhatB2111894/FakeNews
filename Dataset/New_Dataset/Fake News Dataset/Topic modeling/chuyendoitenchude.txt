@@ -1,0 +1,46 @@
+Phân tích và Đặt tên lại các Chủ đề (Dataset 2):
+
+Topic 0: (Name: 0_clinton_trump_hillary_email) -> Bầu cử Hoa Kỳ 2016 (Clinton & Trump, Emails)
+Topic 1: (Name: 1_russia_russian_syria_syrian) -> Nga & Cuộc chiến Syria
+Topic 2: (Name: 2_film_mr_show_like) -> Phim ảnh / Chương trình TV (Hơi chung chung)
+Topic 3: (Name: 3_cancer_food_drug_study) -> Nghiên cứu Ung thư & Sức khỏe (Thực phẩm, Thuốc)
+Topic 4: (Name: 4_muslim_refugee_say_islamic) -> Người tị nạn Hồi giáo & Hồi giáo
+Topic 5: (Name: 5_border_immigration_mexico_mexican) -> Biên giới Hoa Kỳ - Mexico & Nhập cư
+Topic 6: (Name: 6_police_officer_say_mr) -> Cảnh sát & Thực thi pháp luật
+Topic 7: (Name: 7_health_obamacare_care_insurance) -> Y tế Hoa Kỳ (Obamacare)
+Topic 8: (Name: 8_game_player_team_season) -> Thể thao (Đội tuyển, Mùa giải)
+Topic 9: (Name: 9_gold_market_rate_bank) -> Tài chính & Thị trường (Vàng, Ngân hàng)
+Topic 10: (Name: 10_israel_palestinian_israeli_jerusalem) -> Xung đột Israel - Palestine
+Topic 11: (Name: 11_pipeline_dakota_stand_rock) -> Biểu tình Đường ống Dakota Access (Standing Rock)
+Topic 12: (Name: 12_britain_european_brexit_union) -> Brexit (Anh & EU)
+Topic 13: (Name: 13_earth_space_planet_nasa) -> Vũ trụ & Thiên văn học (NASA)
+Topic 14: (Name: 14_court_judge_gorsuch_justice) -> Tòa án Tối cao Hoa Kỳ (Neil Gorsuch)
+Topic 15: (Name: 15_life_mind_energy_love) -> Triết lý sống / Tâm linh / Năng lượng (Khá trừu tượng)
+Topic 16: (Name: 16_mosul_iraqi_iraq_isi) -> Chiến sự Mosul (Iraq & ISIS)
+Topic 17: (Name: 17_china_chinese_beijing_xi) -> Chính trị Trung Quốc (Xi Jinping)
+Topic 18: (Name: 18_france_french_le_paris) -> Tin tức / Chính trị Pháp (Có thể liên quan Le Pen)
+Topic 19: (Name: 19_olympic_rio_athlete_olympics) -> Thế vận hội Olympic (Rio 2016)
+Topic 20: (Name: 20_afghan_taliban_india_afghanistan) -> Tình hình Afghanistan (Taliban & Ấn Độ)
+Topic 21: (Name: 21_halloween_ghost_leftright_swipe) -> Halloween / Chủ đề ma quái (Có thể liên quan ứng dụng hẹn hò?)
+Topic 22: (Name: 22_saudi_arabia_yemen_yemeni) -> Saudi Arabia & Chiến tranh Yemen
+Topic 23: (Name: 23_restaurant_cook_recipe_food) -> Ẩm thực & Nấu ăn
+Topic 24: (Name: 24_turkey_erdogan_turkish_coup) -> Chính trị Thổ Nhĩ Kỳ (Erdogan & Đảo chính 2016)
+Topic 25: (Name: 25_korea_north_korean_south) -> Quan hệ Liên Triều
+Topic 26: (Name: 26_car_uber_tesla_vehicle) -> Công nghiệp Ô tô (Uber, Tesla)
+Topic 27: (Name: 27_child_school_say_parent) -> Trẻ em, Trường học & Phụ huynh
+Topic 28: (Name: 28_company_security_information_use) -> An ninh thông tin & Doanh nghiệp
+Topic 29: (Name: 29_climate_pruitt_paris_change) -> Biến đổi khí hậu & Thỏa thuận Paris
+Topic 30: (Name: 30_veteran_bonus_soldier_arnaldo) -> Cựu chiến binh / Quân đội (Có thể liên quan nhân vật Arnaldo)
+Topic 31: (Name: 31_iran_iranian_pasdaran_tehran) -> Tin tức Iran (IRGC/Pasdaran)
+Topic 32: (Name: 32_job_worker_work_wage) -> Việc làm & Lao động
+Topic 33: (Name: 33_gun_firearm_rifle_amendment) -> Quyền sở hữu súng (Hoa Kỳ)
+Topic 34: (Name: 34_fox_kelly_ailes_news) -> Nội bộ Fox News (Kelly & Ailes)
+Topic 35: (Name: 35_germany_german_merkel_migrant) -> Khủng hoảng Di cư ở Đức (Merkel)
+Topic 36: (Name: 36_abortion_parenthood_plan_woman) -> Tranh cãi Phá thai (Hoa Kỳ)
+Topic 37: (Name: 37_soros_george_election_protest) -> George Soros & Hoạt động chính trị/biểu tình
+Topic 38: (Name: 38_california_state_los_angeles) -> Tin tức California (Los Angeles)
+Topic 39: (Name: 39_sweden_swedish_migrant_stockholm) -> Người di cư ở Thụy Điển
+Topic 40: (Name: 40_venezuela_maduro_venezuelan_colombia) -> Khủng hoảng Venezuela
+Topic 41: (Name: 41_storm_flood_hurricane_water) -> Thiên tai (Bão, Lũ lụt)
+Topic 42: (Name: 42_duterte_philippine_manila_china) -> Philippines (Duterte & Quan hệ với Trung Quốc)
+Topic 43: (Name: 43_school_education_student_teacher) -> Giáo dục & Trường học

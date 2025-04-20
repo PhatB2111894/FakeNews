@@ -1,0 +1,59 @@
+Phân tích và Đặt tên lại các Chủ đề:
+
+Topic 0: (Keywords: trump, say, republican...) -> Chính trị Hoa Kỳ (Trump & Đảng Cộng hòa)
+Topic 1: (Keywords: korea, north, nuclear...) -> Vũ khí hạt nhân Triều Tiên
+Topic 2: (Keywords: merkel, germany, german...) -> Chính trị Đức & Châu Âu (Merkel)
+Topic 3: (Keywords: kurdish, iraq, turkey...) -> Xung đột Iraq/Syria/Thổ Nhĩ Kỳ (Người Kurd)
+Topic 4: (Keywords: pakistan, mugabe, zimbabwe...) -> Chính trị Pakistan & Zimbabwe (Có vẻ gồm 2 khu vực)
+Topic 5: (Keywords: eu, brexit, britain...) -> Brexit (Anh & EU)
+Topic 6: (Keywords: gun, officer, shoot...) -> Bạo lực súng đạn & Cảnh sát (Hoa Kỳ) (Tỷ lệ giả cao: 89%)
+Topic 7: (Keywords: israel, jerusalem, palestinian...) -> Xung đột Israel - Palestine
+Topic 8: (Keywords: saudi, lebanon, hariri...) -> Chính trị Trung Đông (Saudi, Lebanon, Qatar)
+Topic 9: (Keywords: china, taiwan, xi...) -> Quan hệ Trung Quốc - Đài Loan
+Topic 10: (Keywords: london, britain, british...) -> Tin tức Nội địa Anh (London, Manchester)
+Topic 11: (Keywords: myanmar, rohingya, bangladesh...) -> Khủng hoảng Rohingya (Myanmar)
+Topic 12: (Keywords: catalan, spain, independence...) -> Độc lập Catalonia (Tây Ban Nha)
+Topic 13: (Keywords: venezuela, maduro, opposition...) -> Khủng hoảng Venezuela
+Topic 14: (Keywords: abortion, parenthood, woman...) -> Tranh cãi Phá thai (Hoa Kỳ) (Tỷ lệ giả cao: 69%)
+Topic 15: (Keywords: syria, assad, chemical...) -> Nội chiến Syria (Assad & Vũ khí hóa học)
+Topic 16: (Keywords: ban, order, court...) -> Sắc lệnh Cấm Nhập cảnh (Hoa Kỳ)
+Topic 17: (Keywords: cuba, cuban, havana...) -> Quan hệ Hoa Kỳ - Cuba
+Topic 18: (Keywords: nfl, anthem, kaepernick...) -> Biểu tình Chào cờ NFL (Kaepernick) (Tỷ lệ giả cao: 90%)
+Topic 19: (Keywords: france, macron, french...) -> Chính trị Pháp (Macron)
+Topic 20: (Keywords: boiler, acr, room...) -> Show 'Boiler Room' (Radio ACR) (Tỷ lệ giả rất cao: 99%)
+Topic 21: (Keywords: duterte, philippine, drug...) -> Philippines (Duterte & Cuộc chiến ma túy)
+Topic 22: (Keywords: nato, defense, european...) -> NATO & An ninh Châu Âu
+Topic 23: (Keywords: yemen, houthis, saudi...) -> Chiến tranh Yemen
+Topic 24: (Keywords: moore, alabama, roy...) -> Bầu cử Thượng viện Alabama (Roy Moore) (Tỷ lệ giả cao: 63%)
+Topic 25: (Keywords: bundy, oregon, finicum...) -> Vụ Chiếm đóng Oregon (Bundy) (Tỷ lệ giả rất cao: 97%)
+Topic 26: (Keywords: ireland, irish, border...) -> Biên giới Ireland & Brexit
+Topic 27: (Keywords: afghanistan, taliban, kabul...) -> Tình hình Afghanistan (Taliban)
+Topic 28: (Keywords: flint, water, michigan...) -> Khủng hoảng Nước sạch Flint (Michigan) (Tỷ lệ giả cao: 71%)
+Topic 29: (Keywords: illinois, rauner, budget...) -> Chính trị & Ngân sách Illinois
+Topic 30: (Keywords: australia, turnbull, sydney...) -> Chính trị Úc (Turnbull)
+Topic 31: (Keywords: blasio, mayor, city...) -> Chính trị New York City (De Blasio) (Tỷ lệ giả cao: 60%)
+Topic 32: (Keywords: odinga, kenya, kenyatta...) -> Bầu cử Kenya (Odinga & Kenyatta)
+Topic 33: (Keywords: puerto, rico, debt...) -> Khủng hoảng Nợ Puerto Rico
+Topic 34: (Keywords: wire, patrick, henningsen...) -> Nội dung từ 21st Century Wire (Henningsen) (Tỷ lệ giả 100%)
+Topic 35: (Keywords: temer, brazil, lula...) -> Chính trị Brazil (Temer, Lula, Tham nhũng)
+Topic 36: (Keywords: irma, hurricane, florida...) -> Bão Irma (Florida)
+Topic 37: (Keywords: pope, francis, vatican...) -> Giáo hoàng Francis & Vatican
+Topic 38: (Keywords: indonesia, jakarta, bali...) -> Tin tức Indonesia
+Topic 39: (Keywords: egypt, cairo, sisi...) -> Tình hình Ai Cập (Sisi)
+Topic 40: (Keywords: iran, iranian, hostage...) -> Vấn đề Tù nhân/Con tin Iran (Tỷ lệ giả cao: 72%)
+Topic 41: (Keywords: trudeau, canada, canadian...) -> Chính trị Canada (Trudeau)
+Topic 42: (Keywords: california, brown, state...) -> Chính trị California
+Topic 43: (Keywords: nafta, trade, mexico...) -> Đàm phán NAFTA/USMCA
+Topic 44: (Keywords: vietnam, china, sea...) -> Biển Đông (Việt Nam - Trung Quốc)
+Topic 45: (Keywords: zuma, anc, ramaphosa...) -> Chính trị Nam Phi (ANC)
+Topic 46: (Keywords: pelosi, nancy, fence...) -> Chính trị Hoa Kỳ (Nancy Pelosi & Dân chủ) (Tỷ lệ giả cao: 89%)
+Topic 47: (Keywords: puerto, rico, maria...) -> Bão Maria (Puerto Rico)
+Topic 48: (Keywords: thailand, thai, yingluck...) -> Chính trị Thái Lan
+Topic 49: (Keywords: italy, berlusconi, pd...) -> Chính trị Ý
+Topic 50: (Keywords: zika, virus, microcephaly...) -> Virus Zika & Y tế công cộng
+Topic 51: (Keywords: cambodia, hun, sen...) -> Chính trị Campuchia (Hun Sen)
+Topic 52: (Keywords: baltimore, gray, police...) -> Vụ Freddie Gray (Baltimore) (Tỷ lệ giả cao: 91%)
+Topic 53: (Keywords: nigeria, boko, haram...) -> Boko Haram (Nigeria)
+Topic 54: (Keywords: zealand, labour, new...) -> Chính trị New Zealand
+Topic 55: (Keywords: christie, jersey, governor...) -> Chính trị New Jersey (Chris Christie)
+Topic 56: (Keywords: migrant, libya, italy...) -> Khủng hoảng Di cư (Địa Trung Hải)

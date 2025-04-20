@@ -1,0 +1,5 @@
+Metric,Value
+Accuracy,0.999322340185227
+Precision (Weighted),0.9993224531631903
+Recall (Weighted),0.999322340185227
+F1 Score (Weighted),0.9993223456207195

@@ -1,0 +1,19 @@
+Phân tích và Đặt tên lại các Chủ đề (Dataset 3)
+
+Topic 0 (Name 0_russia_syria_russian_say) - Nga & Cuộc chiến Syria
+Topic 1 (Name 1_clinton_email_fbi_hillary) - Vụ emails của Hillary Clinton (FBI)
+Topic 2 (Name 2_trump_donald_say_campaign) - Chiến dịch tranh cử của Donald Trump (2016)
+Topic 3 (Name 3_cruz_trump_say_republican) - Chính trị Đảng Cộng hòa (Cruz & Trump)
+Topic 4 (Name 4_police_say_gun_officer) - Cảnh sát & Vụ việc liên quan súng
+Topic 5 (Name 5_court_say_house_marriage) - Pháp lý Hôn nhân (Tòa án) (Có thể liên quan hôn nhân đồng giới)
+Topic 6 (Name 6_gold_bank_rate_market) - Tài chính & Thị trường (Vàng, Ngân hàng)
+Topic 7 (Name 7_sander_clinton_democratic_campaign) - Bầu cử sơ bộ Đảng Dân chủ 2016 (Sanders & Clinton)
+Topic 8 (Name 8_obama_president_say_house) - Tổng thống Obama & Chính sách
+Topic 9 (Name 9_clinton_hillary_campaign_say) - Chiến dịch tranh cử của Hillary Clinton (2016)
+Topic 10 (Name 10_vote_election_poll_voter) - Bầu cử, Bỏ phiếu & Thăm dò ý kiến
+Topic 11 (Name 11_zika_cancer_health_drug) - Tin tức Y tế (Zika, Ung thư, Thuốc)
+Topic 12 (Name 12_climate_coal_change_emission) - Biến đổi khí hậu & Than đá
+Topic 13 (Name 13_iran_deal_nuclear_iranian) - Thỏa thuận Hạt nhân Iran (JCPOA)
+Topic 14 (Name 14_world_people_one_human) - Các vấn đề Toàn cầu  Nhân loại (Khá chung chung)
+Topic 15 (Name 15_israel_netanyahu_palestinian_israeli) - Xung đột Israel - Palestine (Netanyahu)
+Topic 16 (Name 16_health_insurance_care_obamacare) - Y tế Hoa Kỳ (Obamacare)

@@ -1,0 +1,11 @@
+Phân tích và Đặt tên lại các Chủ đề (Dataset 4):
+
+Topic 0: (Name: 0_say_state_new_trump) -> Tin tức / Phát biểu chung (Trump) (Từ khóa rất chung chung, khó xác định cụ thể)
+Topic 1: (Name: 1_week_game_yard_play) -> Thể thao (Kết quả/Trận đấu hàng tuần) (Có thể là Bóng bầu dục Mỹ)
+Topic 2: (Name: 2_red_warn_list_happen) -> Cảnh báo / Danh sách nguy hiểm / Dự đoán (Nghe có vẻ trừu tượng, có thể mang tính giật gân/thuyết âm mưu)
+Topic 3: (Name: 3_cup_world_photo_sport) -> Thể thao (World Cup & Hình ảnh)
+Topic 4: (Name: 4_season_game_go_hit) -> Thể thao (Mùa giải, Trận đấu) (Có thể là Bóng chày)
+Topic 5: (Name: 5_light_room_ledpowered_diy) -> Dự án Tự làm (DIY) - Đèn LED
+Topic 6: (Name: 6_nfl_anthem_player_protest) -> Biểu tình Chào cờ NFL
+Topic 7: (Name: 7_campaign_prolegalization_fentanyl_painkiller) -> Vận động hợp pháp hóa thuốc / Opioids (Fentanyl)
+Topic 8: (Name: 8_catalan_independence_catalonia_puigdemont) -> Độc lập Catalonia (Tây Ban Nha)
